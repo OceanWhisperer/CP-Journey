@@ -28,7 +28,10 @@ Approach : -
 // Code:
 
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <math.h>
 using namespace std;
 
 int main() {
@@ -40,7 +43,7 @@ int main() {
 		int curr = v[i];
 		int pre = i - 1;
 
-		while (pre >= 0 and v[pre] > curr) {
+		while (pre >= 0 && v[pre] > curr) {
 			v[pre + 1] = v[pre];
 			pre = pre - 1;
 		}
