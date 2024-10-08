@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 bool comp(pair <int, int>a, pair <int,int> b) {
