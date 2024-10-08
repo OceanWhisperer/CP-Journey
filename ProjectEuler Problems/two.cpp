@@ -6,7 +6,7 @@ int main() {
       int a = 1, b = 2;
      int sum = 0;
     
-    // Loop while Fibonacci numbers are less than or equal to 4 million
+    // Looping while Fibonacci numbers are less than or equal to 4 million
     while (b <= 4000000) {
         // Add to sum if Fibonacci number is even
         if (b % 2 == 0) {
