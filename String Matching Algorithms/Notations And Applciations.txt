@@ -1,0 +1,18 @@
+Some Applciations are: - 
+Pattern Matching
+DNA Sequences
+Search Engines Finding relavent Web pages using search querries.
+
+Basic Terminologies:-
+
+1. Shift : given a text string t and a pattern string p "Pattern P occurs"
+with shift s in text t string if some condition is immpossible
+(Bruteforce approach using shift. Comapre each index if not one match shift)
+using shit we get the first index and len on p will give last index.
+
+{More formally s will be initailly set to 0 but a string will be checked
+ from (T[s+1, .... s + m]) and if it matches with p[m] then we can say 
+ that string occurs}
+
+
+2. 
