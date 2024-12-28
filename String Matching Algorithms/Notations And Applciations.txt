@@ -13,6 +13,3 @@ using shit we get the first index and len on p will give last index.
 {More formally s will be initailly set to 0 but a string will be checked
  from (T[s+1, .... s + m]) and if it matches with p[m] then we can say 
  that string occurs}
-
-
-2. 
